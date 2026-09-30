@@ -2,14 +2,17 @@
 
 A GIMP 3 plug-in that arranges your layers in a grid to make a quick photo collage.
 
+![screenshot](docs/ss01.png)
+
 ## Features
 
-- Live preview: the collage updates as you change settings
-- Set columns and rows
+- **Live preview**: the collage updates as you change settings
+- **Auto grid**: picks columns and rows for you, aiming for a square, landscape, or portrait collage
+- Or set columns and rows manually
 - Top-to-bottom or bottom-to-top layer order
 - **Fit photos to cells**: scales each photo to fit its cell without distortion, centered
 - **Spacing**: gap in pixels between photos
-- Works on a copy, so your original image is left alone
+- Builds the collage in a new image, so your original is left alone
 - Layers that don't fit in the grid are hidden
 
 ## Requirements
